@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawaban LKPD Fase 1 - VPS AWS</title>
+    <style>
+        :root {
+            --primary-color: #ff9900;
+            --secondary-color: #232f3e;
+            --bg-color: #f4f6f8;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            color: var(--secondary-color);
+            text-align: center;
+            margin-bottom: 5px;
+            font-size: 24px;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 8px;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+
+        .header-box {
+            background-color: #fafbfc;
+            border: 1px solid #e1e4e8;
+            border-left: 4px solid var(--primary-color);
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 25px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .header-box div {
+            font-size: 15px;
+        }
+
+        .header-box strong {
+            color: var(--secondary-color);
+        }
+
+        .intro-text {
+            margin-bottom: 20px;
+            color: #555;
+            font-style: italic;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background-color: var(--card-bg);
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            border: 1px solid #e1e4e8;
+            padding: 15px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: var(--secondary-color);
+            color: white;
+            font-weight: 600;
+            width: 30%;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fcfdfd;
+        }
+
+        tr:hover {
+            background-color: #f7f9fa;
+        }
+
+        td strong {
+            color: var(--secondary-color);
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 600px) {
+            .header-box {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>LKPD: Manajemen Server VPS AWS</h1>
+        
+        <div class="header-box">
+            <div><strong>Nama:</strong> Alriz Faris Laksana</div>
+            <div><strong>Tanggal:</strong> 15 Oktober 2026</div>
+            <div><strong>Kelas:</strong> XI RPL 2</div>
+            <div><strong>Instruktur:</strong> Bapak Asep Ulumudin</div>
+        </div>
+
+        <h2>Fase 1: Pengenalan Konsep VPS & Cloud</h2>
+        <p class="intro-text">Jelaskan secara singkat pemahaman Anda mengenai perbedaan layanan berikut dengan mengisi kotak yang tersedia[cite: 2]:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Layanan</th>
+                    <th>Penjelasan Singkat & Perbedaan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Shared Hosting</strong></td>
+                    <td>Layanan hosting di mana satu server fisik digunakan bersama-sama oleh banyak pengguna atau website. Sumber daya seperti CPU, RAM, dan penyimpanan dibagi rata, sehingga harganya terjangkau namun performa dapat saling memengaruhi jika ada pengguna lain yang menggunakan sumber daya secara berlebihan[cite: 2].</td>
+                </tr>
+                <tr>
+                    <td><strong>Dedicated Server</strong></td>
+                    <td>Layanan di mana pengguna menyewa satu server fisik secara penuh tanpa berbagi dengan pihak lain[cite: 2]. Memberikan kontrol penuh, performa maksimal, dan keamanan tingkat tinggi, namun dengan biaya sewa yang jauh lebih mahal.</td>
+                </tr>
+                <tr>
+                    <td><strong>Amazon Lightsail</strong></td>
+                    <td>Layanan Virtual Private Server (VPS) dari AWS yang dirancang khusus untuk pemula atau proyek skala kecil/menengah[cite: 2]. Menawarkan kemudahan penggunaan (beginner-friendly), konfigurasi instan, dan skema harga tetap (prediksi biaya bulanan).</td>
+                </tr>
+                <tr>
+                    <td><strong>Amazon EC2</strong></td>
+                    <td>Layanan komputasi awan (cloud computing) dari AWS yang menyediakan kapasitas komputasi yang dapat disesuaikan (skalabel) di cloud[cite: 2]. Sangat fleksibel, cocok untuk aplikasi skala besar, dan memberikan kontrol penuh atas infrastruktur virtual.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
